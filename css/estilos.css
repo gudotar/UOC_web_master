@@ -1,0 +1,145 @@
+body {
+    background: #ffffff;
+    font-family: sans-serif;
+  }
+  
+h1 {
+    font-family: serif;
+}
+
+h2 {
+    font-family: serif;
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+#cabecera {
+    padding: .25em 10% .5em 10%;
+    background-color: #000000;
+    font-size: 2em;
+    color: white;
+}
+
+#subtitulo {
+    margin-top: -0.4em;
+    margin-bottom: -0.3em;
+}
+
+#menu {
+    margin: 0;
+    padding: 2em 30%;
+    font-size: .75em;
+    border-bottom: 2px solid gray;
+
+}
+
+#menu li {
+    display: inline;
+    padding: 0 2em 0 0;
+ }
+
+.subPagina {
+    border-bottom: .2em solid red;
+    padding-bottom: .5em;
+    
+}
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+#introduccion {
+    margin: 0 5% 2em 5%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    text-align: justify;
+}
+
+.fotoVideoPie {
+    text-align: center;
+    clear: both; 
+    font-size: .75em;
+}
+
+#autor {
+    margin: 0 10%;
+}
+
+#imagenRedonda img{
+    border-radius: 100%;
+}
+
+.origenTexto {
+    margin: 1em 10%;
+    padding: 4em 0 4em 0;
+    font-size: .75em;
+}
+
+#principal {
+    margin: .25em 10%;
+    text-align: justify;
+}
+
+#principal ul{
+    list-style-type: square;
+}
+
+#principal ol {
+    margin: 0;
+    padding: 0;
+}
+
+#principal ol li {
+    margin-left: 1em;
+}
+
+#principal li {
+    line-height: 2em;
+}
+
+#pie {
+    padding: 1em 10% 3em 10%;
+    background-color: #3b3b3b;
+    font-size: .75em;
+    line-height: 3em;
+    color: white;
+}
+
+.cursivaSerif li {
+    font-family: serif;
+    font-style: italic;
+}
+
+.noCursivaSerif {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+dt {
+    margin: 1em 0 .25em 0;
+    font-size: 1.25em;
+    }
+
+dd {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#explicacion {
+    margin: 1em 10%;
+    padding: 1em 1.5em;
+    background: #eeeeee;
+    text-align: left;
+    border-left: 1em solid #dddddd;
+    float: right;
+    clear: left;
+}
