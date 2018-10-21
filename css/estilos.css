@@ -47,12 +47,12 @@ p {
     
 }
 a:link {
-    color: red;
+    color: #cc0000;
     text-decoration: none;
 }
 
-a:visited {
-    color: black;
+a:hover {
+    color: #2222;
 }
 
 #introduccion {
